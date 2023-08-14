@@ -1,0 +1,8 @@
+What is componant -  componant is reuseable UI element. and it is set of HTML tags.
+
+we can create componant by using javascript-class or javascript-function
+
+these are inernaliy function
+the name should always capital.
+
+In componant all element should bind in a parent element

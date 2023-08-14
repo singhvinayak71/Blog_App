@@ -1,0 +1,22 @@
+#Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(50,50,93);
+    color: white;
+    align-items: center;
+}
+#Header h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+#Header div{
+    display: flex;
+    gap: 10px;
+}
+
+#Header div button{
+    width: 120px;
+    height: 35px;
+    border: none;
+}
