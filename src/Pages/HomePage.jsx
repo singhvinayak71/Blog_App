@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Header } from "../components/Header";
-import { BlogCard } from "../components/BlogCard";
-import "../styles/homepage.css"
+import React from "react";
+// import { Header } from "../components/Header";
+import BlogCard from "../Components/BlogCard";
+import "../style/homePage.css"
 
-export const HomePage=({blogData})=>{
+const HomePage=({blogData})=>{
     return(
         <div id="HomePage">
         
@@ -11,6 +11,7 @@ export const HomePage=({blogData})=>{
              {
                 blogData.map((e)=>{
                     return <BlogCard img={e.img} desc={e.desc} title={e.title}/>
+                    // </>
                 })
              }
           
@@ -18,3 +19,5 @@ export const HomePage=({blogData})=>{
         </div>
     )
 }
+
+export default HomePage;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Header } from "../components/Header";
-import "../styles/form.css"
+// import { Header } from "../Components/Header";
+import "../style/form.css"
 export const AddBlog =({updateData,prevData})=>{
     const[blogData,setBlogData]=useState({
         title:"",

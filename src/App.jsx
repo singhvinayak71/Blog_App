@@ -1,15 +1,16 @@
 import React from 'react'
 import { Header } from './Components/Header'
 import './App.css'
-import HomePage from './Pages/HomePage'
+// import HomePage from './Pages/HomePage'
+import CustomRoutes from './AllRoutes/CustumRoutes'
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Header/>
-      <HomePage/>
+      <CustomRoutes/>
     </div>
-  )
+  );
 }
 
 export default App;
