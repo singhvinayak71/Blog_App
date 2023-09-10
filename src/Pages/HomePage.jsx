@@ -10,7 +10,7 @@ const HomePage=({blogData})=>{
             <div id="blogParent">
              {
                 blogData.map((e)=>{
-                    return <BlogCard img={e.img} desc={e.desc} title={e.title}/>
+                    return (<BlogCard img={e.img} desc={e.desc} title={e.title}/>)
                     // </>
                 })
              }
